@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:turismomiramar.com)",
+      "WebFetch(domain:demowebecommerce.netlify.app)",
+      "WebFetch(domain:demopedidoscomida.netlify.app)",
+      "WebFetch(domain:demosistemaagricola.netlify.app)",
+      "PowerShell(& \"C:\\\\Users\\\\Usuario\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-Usuario-Desktop-portfolio\\\\4834e02c-de7b-435a-814d-2c2e68a14b4d\\\\scratchpad\\\\cv-build.ps1\")"
+    ]
+  }
+}
