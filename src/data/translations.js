@@ -22,10 +22,13 @@ export const translations = {
       eyebrow: 'Sobre mí',
       title: 'Desarrollador con base técnica sólida y proyectos reales',
       paragraphs: [
-        'Soy Nazareno Garrone, Técnico Universitario en Programación graduado en 2025 en la Universidad Tecnológica Nacional, Facultad Regional San Francisco. Además, cursé dos años de Ingeniería en Sistemas de Información, lo que me dio una base sólida en análisis, lógica y fundamentos de ingeniería de software.',
+        'Técnico Universitario en Programación graduado en 2025 en la Universidad Tecnológica Nacional, Facultad Regional San Francisco. Además, cursé dos años de Ingeniería en Sistemas de Información, lo que me dio una base sólida en análisis, lógica y fundamentos de ingeniería de software.',
         'Desde que empecé a programar me apasionó la capacidad de construir soluciones concretas a partir de la lógica y el pensamiento estructurado. Tuve la oportunidad de desarrollar proyectos reales para distintos clientes, lo que me permitió aplicar conocimientos técnicos en contextos prácticos y aprender mucho más allá del aula.',
         'Me defino como alguien ordenado, proactivo y con capacidad de aprendizaje rápido. Busco incorporarme a un equipo de desarrollo donde pueda contribuir con responsabilidad, seguir creciendo técnicamente y trabajar en proyectos con impacto real.'
       ],
+      ageLabel: 'Edad',
+      ageDetail: 'años',
+      ageIntro: 'Soy Nazareno Garrone, tengo {n} años.',
       highlights: [
         { label: 'Graduado', value: '2025', detail: 'UTN San Francisco' },
         { label: 'Formación', value: 'TUP', detail: 'Técnico Universitario en Programación' },
@@ -49,8 +52,12 @@ export const translations = {
           period: '2023 – 2025',
           status: 'Graduado',
           statusType: 'completed',
-          description: 'Carrera de grado orientada al desarrollo de software, abarcando programación, bases de datos, desarrollo web, estructuras de datos y metodologías de trabajo.',
-          highlights: ['Desarrollo Web', 'Bases de Datos', 'Programación Orientada a Objetos', 'Estructuras de Datos']
+          description: 'Carrera de grado orientada al desarrollo de software, abarcando programación, bases de datos, desarrollo web, estructuras de datos y metodologías de trabajo. Egresé el 5 de septiembre de 2025 con un promedio general de 8,06.',
+          highlights: ['Desarrollo Web', 'Bases de Datos', 'Programación Orientada a Objetos', 'Estructuras de Datos'],
+          documents: [
+            { label: 'Ver diploma', href: '/docs/diploma.jpg' },
+            { label: 'Ver analítico', href: '/docs/analitico.pdf' }
+          ]
         },
         {
           id: 2,
@@ -115,9 +122,10 @@ export const translations = {
         'CRM para concesionaria',
         'Web para turismo Miramar de Ansenuza',
         'Web para inmobiliaria de San Francisco',
-        'E-commerce para perfumería',
+        'E-commerce Zeta Telefonía',
+        'Plataforma de cursos Celeste Platini Pastelería',
         'E-commerce para tienda de ropa',
-        'Sistema de reparto para Aguas Balnearia',
+        'Sistema de reparto para Aguas Balnearia (C# / .NET)',
         'Sistema de pedidos de comidas online',
         'Sistema de gestión agrícola AgroGestión'
       ]
@@ -146,7 +154,7 @@ export const translations = {
       message: 'Mensaje',
       messagePlaceholder: 'Contame en qué puedo ayudarte...',
       send: 'Enviar mensaje',
-      formNote: 'El formulario abrirá tu cliente de correo con el mensaje listo para enviar.',
+      formNote: 'El formulario abrirá Gmail con el mensaje listo para enviar.',
       availabilityTitle: 'Disponible para nuevas oportunidades',
       availabilityDesc: 'Abierto a posiciones junior, proyectos freelance y pasantías en desarrollo de software.',
       location: 'Ubicación',
@@ -186,10 +194,13 @@ export const translations = {
       eyebrow: 'About me',
       title: 'Developer with a solid technical foundation and real projects',
       paragraphs: [
-        "I'm Nazareno Garrone, a Computer Programming Technician graduated in 2025 from the National Technological University, San Francisco Regional Faculty. I also completed two years of Information Systems Engineering, which gave me a solid foundation in analysis, logic and software engineering fundamentals.",
+        "Computer Programming Technician graduated in 2025 from the National Technological University, San Francisco Regional Faculty. I also completed two years of Information Systems Engineering, which gave me a solid foundation in analysis, logic and software engineering fundamentals.",
         'Since I started programming, I became passionate about building concrete solutions from logic and structured thinking. I had the opportunity to develop real projects for different clients, which allowed me to apply technical knowledge in practical contexts and learn much more than in the classroom.',
         "I define myself as an organized, proactive person with a fast learning ability. I'm looking to join a development team where I can contribute responsibly, continue to grow technically and work on projects with real impact."
       ],
+      ageLabel: 'Age',
+      ageDetail: 'years old',
+      ageIntro: "I'm Nazareno Garrone, {n} years old.",
       highlights: [
         { label: 'Graduated', value: '2025', detail: 'UTN San Francisco' },
         { label: 'Degree', value: 'CPT', detail: 'Computer Programming Technician' },
@@ -213,8 +224,12 @@ export const translations = {
           period: '2023 – 2025',
           status: 'Graduated',
           statusType: 'completed',
-          description: 'Undergraduate degree focused on software development, covering programming, databases, web development, data structures and work methodologies.',
-          highlights: ['Web Development', 'Databases', 'Object-Oriented Programming', 'Data Structures']
+          description: 'Undergraduate degree focused on software development, covering programming, databases, web development, data structures and work methodologies. Graduated on September 5, 2025 with an overall GPA of 8.06/10.',
+          highlights: ['Web Development', 'Databases', 'Object-Oriented Programming', 'Data Structures'],
+          documents: [
+            { label: 'View diploma', href: '/docs/diploma.jpg' },
+            { label: 'View transcript', href: '/docs/analitico.pdf' }
+          ]
         },
         {
           id: 2,
@@ -279,9 +294,10 @@ export const translations = {
         'CRM for car dealership',
         'Tourism website for Miramar de Ansenuza',
         'Real estate website for San Francisco',
-        'E-commerce for perfume shop',
+        'Zeta Telefonía e-commerce',
+        'Celeste Platini Pastelería course platform',
         'E-commerce for clothing store',
-        'Delivery system for Aguas Balnearia',
+        'Delivery system for Aguas Balnearia (C# / .NET)',
         'Online food ordering system',
         'AgroGestión agricultural management system'
       ]
@@ -310,7 +326,7 @@ export const translations = {
       message: 'Message',
       messagePlaceholder: 'Tell me how I can help you...',
       send: 'Send message',
-      formNote: 'The form will open your email client with the message ready to send.',
+      formNote: 'The form will open Gmail with the message ready to send.',
       availabilityTitle: 'Available for new opportunities',
       availabilityDesc: 'Open to junior positions, freelance projects and internships in software development.',
       location: 'Location',

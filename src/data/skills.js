@@ -14,12 +14,28 @@ export const skillCategories = [
         descriptionEn: 'Main language for frontend and backend development'
       },
       {
+        name: 'TypeScript',
+        nameEn: 'TypeScript',
+        icon: 'devicon-typescript-plain',
+        color: '#3178C6',
+        description: 'Superset de JavaScript con tipado estático',
+        descriptionEn: 'JavaScript superset with static typing'
+      },
+      {
         name: 'C#',
         nameEn: 'C#',
         icon: 'devicon-csharp-plain',
         color: '#9b4f96',
         description: 'Desarrollo de aplicaciones y servicios backend',
         descriptionEn: 'Application and backend service development'
+      },
+      {
+        name: 'Go',
+        nameEn: 'Go',
+        icon: 'devicon-go-plain',
+        color: '#00ADD8',
+        description: 'Lenguaje compilado para servicios backend concurrentes y eficientes',
+        descriptionEn: 'Compiled language for efficient, concurrent backend services'
       },
       {
         name: 'HTML5',
@@ -67,6 +83,30 @@ export const skillCategories = [
         color: '#DD0031',
         description: 'Framework para aplicaciones web escalables',
         descriptionEn: 'Framework for scalable web applications'
+      },
+      {
+        name: 'React',
+        nameEn: 'React',
+        icon: 'devicon-react-original',
+        color: '#61DAFB',
+        description: 'Biblioteca para construir interfaces basadas en componentes',
+        descriptionEn: 'Library for building component-based user interfaces'
+      },
+      {
+        name: 'Next.js',
+        nameEn: 'Next.js',
+        icon: 'devicon-nextjs-plain',
+        color: '#888888',
+        description: 'Framework de React con renderizado del lado del servidor',
+        descriptionEn: 'React framework with server-side rendering'
+      },
+      {
+        name: 'Tailwind CSS',
+        nameEn: 'Tailwind CSS',
+        icon: 'devicon-tailwindcss-original',
+        color: '#38BDF8',
+        description: 'Framework de CSS utility-first para diseño rápido',
+        descriptionEn: 'Utility-first CSS framework for fast styling'
       },
       {
         name: 'Responsive Design',
@@ -118,6 +158,14 @@ export const skillCategories = [
         descriptionEn: 'Minimalist framework for APIs with Node.js'
       },
       {
+        name: '.NET',
+        nameEn: '.NET',
+        icon: 'devicon-dot-net-plain',
+        color: '#512BD4',
+        description: 'Plataforma de Microsoft para APIs y aplicaciones con C#',
+        descriptionEn: 'Microsoft platform for APIs and applications with C#'
+      },
+      {
         name: 'APIs REST',
         nameEn: 'REST APIs',
         icon: null,
@@ -158,6 +206,22 @@ export const skillCategories = [
         abbr: 'SQL',
         description: 'Lenguaje de consultas estructuradas',
         descriptionEn: 'Structured query language'
+      },
+      {
+        name: 'PostgreSQL',
+        nameEn: 'PostgreSQL',
+        icon: 'devicon-postgresql-plain',
+        color: '#336791',
+        description: 'Base de datos relacional avanzada y de código abierto',
+        descriptionEn: 'Advanced open-source relational database'
+      },
+      {
+        name: 'MySQL',
+        nameEn: 'MySQL',
+        icon: 'devicon-mysql-plain',
+        color: '#00758F',
+        description: 'Base de datos relacional ampliamente usada en la web',
+        descriptionEn: 'Relational database widely used on the web'
       },
       {
         name: 'Diseño de BD',
@@ -207,6 +271,22 @@ export const skillCategories = [
         color: '#888888',
         description: 'Repositorios, colaboración y gestión de proyectos',
         descriptionEn: 'Repositories, collaboration and project management'
+      },
+      {
+        name: 'Postman',
+        nameEn: 'Postman',
+        icon: 'devicon-postman-plain',
+        color: '#FF6C37',
+        description: 'Testing y documentación de APIs REST',
+        descriptionEn: 'REST API testing and documentation'
+      },
+      {
+        name: 'Docker',
+        nameEn: 'Docker',
+        icon: 'devicon-docker-plain',
+        color: '#2496ED',
+        description: 'Contenedores para desarrollo y despliegue de aplicaciones',
+        descriptionEn: 'Containers for application development and deployment'
       },
       {
         name: 'JSON',

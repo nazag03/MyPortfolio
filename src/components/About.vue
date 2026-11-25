@@ -7,6 +7,15 @@ const { t } = useLanguage()
 const highlights = computed(() => t('about.highlights'))
 const traits = computed(() => t('about.traits'))
 const paragraphs = computed(() => t('about.paragraphs'))
+
+const age = computed(() => {
+  const birth = new Date(2003, 3, 30) // 30 abril 2003
+  const now = new Date()
+  let years = now.getFullYear() - birth.getFullYear()
+  const passed = now.getMonth() > 3 || (now.getMonth() === 3 && now.getDate() >= 30)
+  if (!passed) years--
+  return years
+})
 </script>
 
 <template>
@@ -21,7 +30,10 @@ const paragraphs = computed(() => t('about.paragraphs'))
 
           <div class="about-paragraphs">
             <p v-for="(para, i) in paragraphs" :key="i" class="about-para">
-              {{ para }}
+              <template v-if="i === 0">
+                <span class="age-intro">{{ t('about.ageIntro').replace('{n}', age) }}</span>
+                {{ ' ' }}
+              </template>{{ para }}
             </p>
           </div>
 
@@ -89,6 +101,10 @@ const paragraphs = computed(() => t('about.paragraphs'))
 .about-para {
   font-size: 0.975rem;
   line-height: 1.8;
+  color: var(--text-secondary);
+}
+
+.age-intro {
   color: var(--text-secondary);
 }
 

@@ -47,6 +47,20 @@ const educationItems = computed(() => t('education.items'))
             <div v-if="item.highlights.length" class="edu-highlights">
               <span v-for="h in item.highlights" :key="h" class="tag">{{ h }}</span>
             </div>
+
+            <div v-if="item.documents?.length" class="edu-docs">
+              <a
+                v-for="doc in item.documents"
+                :key="doc.href"
+                :href="doc.href"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-secondary btn-sm"
+              >
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.48 12.89 17 22l-5-3-5 3 1.52-9.11"/></svg>
+                {{ doc.label }}
+              </a>
+            </div>
           </div>
         </article>
       </div>
@@ -195,6 +209,13 @@ const educationItems = computed(() => t('education.items'))
   display: flex;
   flex-wrap: wrap;
   gap: 0.4rem;
+}
+
+.edu-docs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
 }
 
 /* Responsive */

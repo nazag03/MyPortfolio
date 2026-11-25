@@ -13,7 +13,10 @@ function handleSubmit() {
 
   const subject = encodeURIComponent(`Contacto desde portfolio — ${name}`)
   const body = encodeURIComponent(`Nombre: ${name}\nEmail: ${email}\n\nMensaje:\n${message}`)
-  window.location.href = `mailto:${config.email}?subject=${subject}&body=${body}`
+  window.open(
+    `https://mail.google.com/mail/?view=cm&to=${config.email}&su=${subject}&body=${body}`,
+    '_blank'
+  )
 }
 
 const contactLinks = computed(() => [
@@ -21,8 +24,9 @@ const contactLinks = computed(() => [
     id: 'email',
     label: t('contact.emailLabel'),
     value: config.email,
-    href: `mailto:${config.email}`,
-    icon: 'mail'
+    href: `https://mail.google.com/mail/?view=cm&to=${config.email}`,
+    icon: 'mail',
+    external: true
   },
   {
     id: 'github',
