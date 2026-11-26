@@ -119,12 +119,11 @@ export const translations = {
       emptyDesc: 'He desarrollado proyectos reales para distintos clientes como trabajos freelance. Esta sección se completará con el detalle de cada experiencia próximamente.',
       previewLabel: 'Proyectos realizados para clientes',
       previewProjects: [
+        'E-commerce Zeta Telefonía',
+        'Plataforma de cursos Celeste Platini Pastelería',
         'CRM para concesionaria',
         'Web para turismo Miramar de Ansenuza',
         'Web para inmobiliaria de San Francisco',
-        'E-commerce Zeta Telefonía',
-        'Plataforma de cursos Celeste Platini Pastelería',
-        'E-commerce para tienda de ropa',
         'Sistema de reparto para Aguas Balnearia (C# / .NET)',
         'Sistema de pedidos de comidas online',
         'Sistema de gestión agrícola AgroGestión'
@@ -291,12 +290,11 @@ export const translations = {
       emptyDesc: 'I developed real projects for different clients as freelance work. This section will be completed with the details of each experience soon.',
       previewLabel: 'Projects built for clients',
       previewProjects: [
+        'Zeta Telefonía e-commerce',
+        'Celeste Platini Pastelería course platform',
         'CRM for car dealership',
         'Tourism website for Miramar de Ansenuza',
         'Real estate website for San Francisco',
-        'Zeta Telefonía e-commerce',
-        'Celeste Platini Pastelería course platform',
-        'E-commerce for clothing store',
         'Delivery system for Aguas Balnearia (C# / .NET)',
         'Online food ordering system',
         'AgroGestión agricultural management system'
