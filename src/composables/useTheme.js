@@ -2,7 +2,6 @@ import { ref, watch, onMounted } from 'vue'
 
 const STORAGE_KEY = 'portfolio-theme'
 
-// Shared state across all component instances
 const theme = ref('dark')
 
 export function useTheme() {

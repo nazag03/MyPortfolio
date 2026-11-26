@@ -4,14 +4,14 @@ export const config = {
   roleSecondary: 'Desarrollador de Software Junior',
   location: 'San Francisco, Córdoba, Argentina',
   email: 'nazagarronr@gmail.com',
+  phone: '3564-696806',
+  whatsapp: 'https://wa.me/5493564696806',
   github: 'https://github.com/nazag03',
   linkedin: 'https://www.linkedin.com/in/nazareno-garrone/',
   cv: '/cv.pdf',
 
-  // Reemplazar con la ruta real cuando tengas la foto: '/profile.jpg'
   profileImage: '/profile.jpg',
 
-  // Color de acento principal (configurable)
   accentColor: '#6366f1',
 
   // Hero

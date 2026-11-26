@@ -1,9 +1,3 @@
-// ─── CÓMO AGREGAR UN PROYECTO ───────────────────────────────────────────────
-// Copiá el objeto de ejemplo al final del array, completá los campos y listo.
-// Los campos vacíos ("") se ocultan automáticamente en la vista de detalle.
-// Para marcar un proyecto como destacado usá: featured: true
-// ────────────────────────────────────────────────────────────────────────────
-
 export const projects = [
   {
     id: 12,
@@ -17,8 +11,8 @@ export const projects = [
     solution: 'Desarrollé una tienda online moderna y rápida con catálogo filtrable, buscador, secciones de destacados y ofertas, y un flujo de consulta que deriva al cliente a WhatsApp con los productos seleccionados, manteniendo la atención personalizada del negocio.',
     image: '/projects/zetatelefonia.png',
     screenshots: [],
-    technologies: ['TypeScript', 'Next.js', 'React', 'Tailwind CSS', 'Node.js'],
-    github: '',
+    technologies: ['TypeScript', 'Next.js', 'React', 'Tailwind CSS', 'Firebase'],
+    github: 'https://github.com/nazag03/zeta-telefonia-tienda',
     demo: 'https://zetatelefoniasf.onrender.com/',
     participation: 'Desarrollé el proyecto completo, desde el diseño de la interfaz hasta la implementación y el despliegue.',
     learnings: 'Profundicé en el ecosistema React con Next.js y TypeScript, en el diseño de interfaces con Tailwind CSS y en construir una experiencia de compra pensada para convertir visitas en consultas reales.',
@@ -45,8 +39,8 @@ export const projects = [
     solution: 'Desarrollé una plataforma donde el alumno elige el curso, paga con Mercado Pago y accede al contenido al instante desde su cuenta, con contacto directo por WhatsApp e Instagram y páginas legales de términos, privacidad, cancelaciones y envíos.',
     image: '/projects/pasteleria.png',
     screenshots: [],
-    technologies: ['TypeScript', 'Next.js', 'React', 'Node.js', 'Mercado Pago', 'Cloudinary'],
-    github: '',
+    technologies: ['TypeScript', 'Next.js', 'Tailwind CSS', 'Prisma', 'PostgreSQL', 'Mercado Pago'],
+    github: 'https://github.com/nazag03/celeste-platini-cursos',
     demo: 'https://celesteplatinipasteleriasf.onrender.com/',
     participation: 'Desarrollé el proyecto completo, desde el diseño de la interfaz hasta la integración de pagos y el despliegue.',
     learnings: 'Aprendí a integrar pagos con Mercado Pago en un flujo de venta de contenido digital, a manejar cuentas de usuario con acceso a material comprado y a optimizar imágenes con Cloudinary.',
